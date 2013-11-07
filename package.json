@@ -1,0 +1,30 @@
+{
+	"name": "esdf-simpleweb",
+	"preferGlobal": false,
+	"version": "0.1.0",
+	"author": "Robert Kawecki <thewanderer@gim11.pl>",
+	"description": "A web front-end for esdf that includes an in-memory aggregate reporting store and a command interface.",
+	"contributors": [],
+	"scripts": {
+		"test": "mocha tests"
+	},
+	"keywords": [
+		"ddd",
+		"domain",
+		"cqrs",
+		"event",
+		"sourcing",
+		"http",
+		"rest",
+		"soa"
+	],
+	"dependencies": {
+		"uuid": "1.4.x",
+		"when": "2.x.x",
+		"express": "3.4.x"
+	},
+	"license": "GPL3",
+	"engines": {
+		"node": ">=0.8"
+	}
+}
